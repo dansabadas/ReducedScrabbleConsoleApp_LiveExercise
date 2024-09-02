@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ReducedScrabbleConsoleApp/bin
+/ReducedScrabbleConsoleApp/obj
+/TestProject/bin
+/TestProject/obj
