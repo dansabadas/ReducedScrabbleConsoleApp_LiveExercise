@@ -118,7 +118,7 @@ public class SessionService : ISessionService
         foreach (char letter in distinctChars)
         {
             int count = word.Count(c => c == letter);
-            _internalStateMachine.LettersUsed[letter] = _internalStateMachine.LettersUsed[letter] + count;
+            _internalStateMachine.LettersUsed[letter] += count;
         }
     }
 
@@ -159,6 +159,9 @@ public class SessionService : ISessionService
         return overallPoints;
     }
 
+    /// <summary>
+    /// Represents the internal state of an active game session
+    /// </summary>
     private class InternalStateMachine
     {
         public int PointsNumber { get; set; }
