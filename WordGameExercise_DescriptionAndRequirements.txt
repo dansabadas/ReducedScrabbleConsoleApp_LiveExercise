@@ -1,0 +1,79 @@
+-[ Intro ]---------------------------------------------------------------------------------------------------------------
+
+The game that you are going to build as part of this interview step is a small word game.
+It has some similarities to Scrabble (if you're familiar with the game), but has a simpler approach since it doesn't require a board to play.
+Familiarity with the Scrabble game is not required or relevant for completing this exercise.
+
+-[ Game description ]----------------------------------------------------------------------------------------------------
+
+During a round of this game, one or multiple players attempt to create valid words from a set of letter tiles (for this exercise, only one
+player is required).
+Each letter tile has points allocated to it:
+
+| Letter(s)                    | Point(s) |
+| ---------------------------- | -------- |
+| A, E, I, L, N, O, R, S, T, U | 1        |
+| D, G                         | 2        |
+| B, C, M, P                   | 3        |
+| F, H, V, W, Y                | 4        |
+| K                            | 5        |
+| J, X                         | 8        |
+| Q, Z                         | 10       |
+
+For example, the word "RAPID" has a total score of 8, calculated like this:
+RAPID = 1(R) + 1(A) + 3(P) + 1(I) + 2(D) = 8
+
+Letter tiles also have limited availability during one round depending on letter. 
+The following quantities are available:
+
+| Letter(s)                 | Available  |
+| ------------------------- | ---------- |
+| E                         | 12 tiles   |
+| A, I                      | 9 tiles    |
+| O                         | 8 tiles    |
+| N, R, T                   | 6 tiles    |
+| D, L, S, U                | 4 tiles    |
+| G                         | 3 tiles    |
+| B, C, F, H, M, P, V, W, Y | 2 tiles    |
+| J, K, Q, X, Z             | 1 tile     |
+When multiple letters are defined on same row, quantity shown is for each letter
+
+A current version of the dictionary has been provided as a text file with one word per row.
+
+-[ Requirements ]--------------------------------------------------------------------------------------------------------
+
+1. Allow the user to play a round of the game.
+During this the user can write a word and the system shows if the word is accepted/rejected 
+(based on word existing in the dictionary and current round tile availability)
+Example: 
+
+User input: JOKE
+Will display: "JOKE" accepted. 15 points. 
+
+User input: JAZZ
+Will display: "JAZZ" rejected. Letters not available: "J", "Z".
+
+User input: "SENCE"
+Will display: "SENCE" rejected. Word does not exist.
+
+2. Allow a player to display current game statistics on demand during an ongoing game:
+   Longest word used during the game, highest points word and points number.
+   
+Continued example for game in point 1:
+Longest word used: JOKE
+Highest points word: JOKE
+Points number: 15
+   
+3. Allow a player to reset and start a new game/round
+This would reset the letter availability and statistics.
+
+Exercise should be built as a NET Framework or NET Core application with a Console UI and user input.
+User input should be case insensitive.
+
+-[Grading ]-------------------------------------------------------------------------------------------------------------
+
+The exercise will be graded for having:
+1. A working solution without compile or runtime errors
+2. Clean and reusable code
+3. Software design patterns, principles and best practices
+4. Additional features are welcomed if time permits

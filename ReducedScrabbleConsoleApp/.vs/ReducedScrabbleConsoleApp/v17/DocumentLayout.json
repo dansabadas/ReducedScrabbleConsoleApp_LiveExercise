@@ -1,0 +1,321 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBBE416-9965-430D-8EFF-CBDED7EFFCAF}|..\\TestProject\\TestProject.csproj|c:\\source\\local\\software developer live exercise\\testproject\\unittests\\sessionserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|c:\\source\\local\\software developer live exercise\\reducedscrabbleconsoleapp\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|solutionrelative:services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|c:\\source\\local\\software developer live exercise\\reducedscrabbleconsoleapp\\services\\gameconsoleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|solutionrelative:services\\gameconsoleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|c:\\source\\local\\software developer live exercise\\reducedscrabbleconsoleapp\\models\\gamestatisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|solutionrelative:models\\gamestatisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|c:\\source\\local\\software developer live exercise\\reducedscrabbleconsoleapp\\services\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|solutionrelative:services\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|c:\\source\\local\\software developer live exercise\\reducedscrabbleconsoleapp\\repository\\settings\\letterpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|solutionrelative:repository\\settings\\letterpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|c:\\source\\local\\software developer live exercise\\reducedscrabbleconsoleapp\\repository\\settings\\letteravailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|solutionrelative:repository\\settings\\letteravailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|c:\\source\\local\\software developer live exercise\\reducedscrabbleconsoleapp\\repository\\wordsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|solutionrelative:repository\\wordsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBBE416-9965-430D-8EFF-CBDED7EFFCAF}|..\\TestProject\\TestProject.csproj|c:\\source\\local\\software developer live exercise\\testproject\\integrationtests\\wordsrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|c:\\source\\local\\software developer live exercise\\reducedscrabbleconsoleapp\\infrastructure\\filestringreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|solutionrelative:infrastructure\\filestringreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBBE416-9965-430D-8EFF-CBDED7EFFCAF}|..\\TestProject\\TestProject.csproj|c:\\source\\local\\software developer live exercise\\testproject\\integrationtests\\filestringreadertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEBBE416-9965-430D-8EFF-CBDED7EFFCAF}|..\\TestProject\\TestProject.csproj|c:\\source\\local\\software developer live exercise\\testproject\\testproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|c:\\source\\local\\software developer live exercise\\reducedscrabbleconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BD615C-0A21-42D6-B184-5CE472173B85}|ReducedScrabbleConsoleApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 516,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Services\\SessionService.cs",
+              "RelativeDocumentMoniker": "Services\\SessionService.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Services\\SessionService.cs",
+              "RelativeToolTip": "Services\\SessionService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwBgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:25:37.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameConsoleService.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Services\\GameConsoleService.cs",
+              "RelativeDocumentMoniker": "Services\\GameConsoleService.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Services\\GameConsoleService.cs",
+              "RelativeToolTip": "Services\\GameConsoleService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAvwCgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:38:38.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameStatisticsDto.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Models\\GameStatisticsDto.cs",
+              "RelativeDocumentMoniker": "Models\\GameStatisticsDto.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Models\\GameStatisticsDto.cs",
+              "RelativeToolTip": "Models\\GameStatisticsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:34:46.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISessionService.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Services\\ISessionService.cs",
+              "RelativeDocumentMoniker": "Services\\ISessionService.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Services\\ISessionService.cs",
+              "RelativeToolTip": "Services\\ISessionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:26:19.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LetterPoints.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Repository\\Settings\\LetterPoints.cs",
+              "RelativeDocumentMoniker": "Repository\\Settings\\LetterPoints.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Repository\\Settings\\LetterPoints.cs",
+              "RelativeToolTip": "Repository\\Settings\\LetterPoints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:20:59.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LetterAvailability.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Repository\\Settings\\LetterAvailability.cs",
+              "RelativeDocumentMoniker": "Repository\\Settings\\LetterAvailability.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Repository\\Settings\\LetterAvailability.cs",
+              "RelativeToolTip": "Repository\\Settings\\LetterAvailability.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:22:24.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WordsRepository.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Repository\\WordsRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\WordsRepository.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Repository\\WordsRepository.cs",
+              "RelativeToolTip": "Repository\\WordsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:18:52.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileStringReader.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Infrastructure\\FileStringReader.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\FileStringReader.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Infrastructure\\FileStringReader.cs",
+              "RelativeToolTip": "Infrastructure\\FileStringReader.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:23:59.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FileStringReaderTests.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\TestProject\\IntegrationTests\\FileStringReaderTests.cs",
+              "RelativeDocumentMoniker": "..\\TestProject\\IntegrationTests\\FileStringReaderTests.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\TestProject\\IntegrationTests\\FileStringReaderTests.cs",
+              "RelativeToolTip": "..\\TestProject\\IntegrationTests\\FileStringReaderTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T10:41:26.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\ReducedScrabbleConsoleApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:17:23.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 514,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TestProject",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\TestProject\\TestProject.csproj",
+              "RelativeDocumentMoniker": "..\\TestProject\\TestProject.csproj",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\TestProject\\TestProject.csproj",
+              "RelativeToolTip": "..\\TestProject\\TestProject.csproj",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-30T11:05:57.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WordsRepositoryTests.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\TestProject\\IntegrationTests\\WordsRepositoryTests.cs",
+              "RelativeDocumentMoniker": "..\\TestProject\\IntegrationTests\\WordsRepositoryTests.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\TestProject\\IntegrationTests\\WordsRepositoryTests.cs",
+              "RelativeToolTip": "..\\TestProject\\IntegrationTests\\WordsRepositoryTests.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T11:19:07.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SessionServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\source\\local\\Software Developer Live Exercise\\TestProject\\UnitTests\\SessionServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "..\\TestProject\\UnitTests\\SessionServiceUnitTests.cs",
+              "ToolTip": "C:\\source\\local\\Software Developer Live Exercise\\TestProject\\UnitTests\\SessionServiceUnitTests.cs",
+              "RelativeToolTip": "..\\TestProject\\UnitTests\\SessionServiceUnitTests.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAswDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T10:40:50.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 515,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
