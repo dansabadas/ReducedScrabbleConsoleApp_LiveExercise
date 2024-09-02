@@ -5,7 +5,7 @@
 /// </summary>
 internal class LettersUsed : BaseLetterDictionary
 {
-    public LettersUsed()
+    protected override void InitializeDictionary()
     {
         _letterDictionary = new()
         {
@@ -38,7 +38,7 @@ internal class LettersUsed : BaseLetterDictionary
         };
     }
 
-    public new int this[char key]
+    public override int this[char key]
     {
         get => base[key];
         set

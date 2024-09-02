@@ -2,10 +2,7 @@
 
 internal class LetterPoints : BaseLetterDictionary
 {
-    private static readonly LetterPoints _instance = new();
-    public static LetterPoints Instance => _instance;
-
-    private LetterPoints()
+    protected override void InitializeDictionary()
     {
         _letterDictionary = new()
         {

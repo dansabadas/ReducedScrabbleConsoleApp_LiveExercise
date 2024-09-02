@@ -2,10 +2,7 @@
 
 internal class LetterAvailability : BaseLetterDictionary
 {
-    private static readonly LetterAvailability _instance = new();
-    public static LetterAvailability Instance => _instance;
-
-    private LetterAvailability()
+    protected override void InitializeDictionary()
     {
         _letterDictionary = new()
         {

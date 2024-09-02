@@ -7,10 +7,10 @@ internal class LetterSettings
 
     private LetterSettings() 
     { 
-        LetterPoints = LetterPoints.Instance;
-        LetterAvailability = LetterAvailability.Instance;
+        LetterPoints = new LetterPoints();
+        LetterAvailability = new LetterAvailability();
     }
 
-    public LetterPoints LetterPoints { get; private set; }
-    public LetterAvailability LetterAvailability { get; private set; }
+    public LetterPoints LetterPoints { get; }
+    public LetterAvailability LetterAvailability { get; }
 }
