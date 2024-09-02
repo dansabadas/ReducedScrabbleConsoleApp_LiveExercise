@@ -1,8 +1,11 @@
-﻿namespace ReducedScrabbleConsoleApp.Services.Settings;
+﻿namespace ReducedScrabbleConsoleApp.Services;
 
-internal class LettersUsedInActiveSession : AbstractLetterDictionary
+/// <summary>
+/// Represents the Letters Used In a Active Session
+/// </summary>
+internal class LettersUsed : BaseLetterDictionary
 {
-    public LettersUsedInActiveSession()
+    public LettersUsed()
     {
         _letterDictionary = new()
         {

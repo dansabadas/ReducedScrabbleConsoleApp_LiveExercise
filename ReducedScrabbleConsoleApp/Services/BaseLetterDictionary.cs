@@ -1,6 +1,6 @@
-﻿namespace ReducedScrabbleConsoleApp.Services.Settings;
+﻿namespace ReducedScrabbleConsoleApp.Services;
 
-internal abstract class AbstractLetterDictionary
+internal abstract class BaseLetterDictionary
 {
     protected Dictionary<char, int> _letterDictionary;
 

@@ -164,6 +164,6 @@ public class SessionService : ISessionService
         public int PointsNumber { get; set; }
         public string LongestWord { get; set; } = string.Empty;
         public string HighestPointsWord { get; set; } = string.Empty;
-        public LettersUsedInActiveSession LettersUsed { get; set; } = new ();
+        public LettersUsed LettersUsed { get; set; } = new ();
     }
 }

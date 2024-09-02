@@ -1,6 +1,6 @@
 ﻿namespace ReducedScrabbleConsoleApp.Services.Settings;
 
-internal class LetterPoints : AbstractLetterDictionary
+internal class LetterPoints : BaseLetterDictionary
 {
     private static readonly LetterPoints _instance = new();
     public static LetterPoints Instance => _instance;
