@@ -2,7 +2,7 @@
 
 using ReducedScrabbleConsoleApp.Models;
 using ReducedScrabbleConsoleApp.Repository;
-using ReducedScrabbleConsoleApp.Repository.Settings;
+using ReducedScrabbleConsoleApp.Services.Settings;
 using System.Linq;
 
 public class SessionService : ISessionService
@@ -95,7 +95,7 @@ public class SessionService : ISessionService
         foreach (char letter in distinctChars)
         {
             int count = word.Count(c => c == letter);
-            if (LetterAvailability.Instance[letter] < count + _internalStateMachine[letter])
+            if (LetterSettings.Instance.LetterAvailability[letter] < count + _internalStateMachine.LettersUsed[letter])
             {
                 if (!notAvailableChars.Contains(letter)) 
                 {
@@ -114,11 +114,11 @@ public class SessionService : ISessionService
     private void UpdateLetterAvailability(string word)
     {
         char[] distinctChars = word.ToUpperInvariant().ToCharArray();
-        List<char> notAvailableChars = new();
+        List<char> notAvailableChars = [];
         foreach (char letter in distinctChars)
         {
             int count = word.Count(c => c == letter);
-            _internalStateMachine[letter] = _internalStateMachine[letter] + count;
+            _internalStateMachine.LettersUsed[letter] = _internalStateMachine.LettersUsed[letter] + count;
         }
     }
 
@@ -127,10 +127,10 @@ public class SessionService : ISessionService
         //usually this method would be a standalone class, with much more solid validation (not stopping at the first broken rule)
         char[] chars = word.ToCharArray();
 
-        List<char> invalidChars = new();
+        List<char> invalidChars = [];
         foreach (char c in chars) 
         {
-            if (!LetterAvailability.Instance.CharacterExists(c))
+            if (!LetterSettings.Instance.LetterAvailability.CharacterExists(c))
             {
                 if (!invalidChars.Contains(c))
                 {
@@ -153,7 +153,7 @@ public class SessionService : ISessionService
         int overallPoints = 0;
         foreach (char c in chars)
         {
-            overallPoints += LetterPoints.Instance[c];
+            overallPoints += LetterSettings.Instance.LetterPoints[c];
         }
 
         return overallPoints;
@@ -164,49 +164,6 @@ public class SessionService : ISessionService
         public int PointsNumber { get; set; }
         public string LongestWord { get; set; } = string.Empty;
         public string HighestPointsWord { get; set; } = string.Empty;
-
-        public int this[char key]
-        {
-            get => _lettersUsedDictionary[key];
-            set
-            {
-                if (!_lettersUsedDictionary.ContainsKey(key))
-                {
-                    throw new KeyNotFoundException($"Key '{key}' not found in the dictionary.");
-                }
-
-                _lettersUsedDictionary[key] = value;
-            }
-        }
-
-        private readonly Dictionary<char, int> _lettersUsedDictionary = new()
-        {
-            ['E'] = 0,
-            ['A'] = 0,
-            ['I'] = 0,
-            ['O'] = 0,
-            ['N'] = 0,
-            ['R'] = 0,
-            ['T'] = 0,
-            ['D'] = 0,
-            ['L'] = 0,
-            ['S'] = 0,
-            ['U'] = 0,
-            ['G'] = 0,
-            ['B'] = 0,
-            ['C'] = 0,
-            ['F'] = 0,
-            ['H'] = 0,
-            ['M'] = 0,
-            ['P'] = 0,
-            ['V'] = 0,
-            ['W'] = 0,
-            ['Y'] = 0,
-            ['J'] = 0,
-            ['K'] = 0,
-            ['Q'] = 0,
-            ['X'] = 0,
-            ['Z'] = 0
-        };
+        public LettersUsedInActiveSession LettersUsed { get; set; } = new ();
     }
 }

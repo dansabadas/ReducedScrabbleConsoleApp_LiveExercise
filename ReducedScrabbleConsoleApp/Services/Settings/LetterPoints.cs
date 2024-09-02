@@ -1,11 +1,13 @@
-﻿namespace ReducedScrabbleConsoleApp.Repository.Settings
-{
-    internal class LetterPoints
-    {
-        private static readonly LetterPoints _instance = new();
-        public static LetterPoints Instance => _instance;
+﻿namespace ReducedScrabbleConsoleApp.Services.Settings;
 
-        private static readonly Dictionary<char, int> _letterPointsDictionary = new()
+internal class LetterPoints : AbstractLetterDictionary
+{
+    private static readonly LetterPoints _instance = new();
+    public static LetterPoints Instance => _instance;
+
+    private LetterPoints()
+    {
+        _letterDictionary = new()
         {
             ['A'] = 1,
             ['E'] = 1,
@@ -34,10 +36,6 @@
             ['Q'] = 10,
             ['Z'] = 10
         };
-    
-        public int this[char key] =>
-            _letterPointsDictionary.TryGetValue(key, out int value)
-                    ? value
-                    : throw new KeyNotFoundException($"Key {key} not found!");
     }
 }
+
