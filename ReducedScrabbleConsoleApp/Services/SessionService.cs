@@ -43,7 +43,7 @@ public class SessionService : ISessionService
         };
 
 
-        char[] invalidLetters = PrevalidateInput(word);
+        char[] invalidLetters = PrevalidateCharacterSupport(word);
         if (invalidLetters.Length > 0) 
         {
             processedResult.WordAccepted = false;
@@ -122,9 +122,9 @@ public class SessionService : ISessionService
         }
     }
 
-    private static char[] PrevalidateInput(string word) 
+    private static char[] PrevalidateCharacterSupport(string word) 
     {
-        //usually this method would be a standalone class, with much more solid validation (not stopping at the first broken rule)
+        //usually this method would be a standalone class
         char[] chars = word.ToCharArray();
 
         List<char> invalidChars = [];
