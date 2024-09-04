@@ -35,7 +35,7 @@ internal class LetterAvailability : BaseLetterDictionary
         };
     }
 
-    public bool CharacterExists(char character)
+    public bool CharacterSupported(char character)
     {
         return _letterDictionary.TryGetValue(character, out int _);
     }

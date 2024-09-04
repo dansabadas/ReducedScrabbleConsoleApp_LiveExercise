@@ -4,10 +4,7 @@ internal abstract class BaseLetterDictionary
 {
     protected Dictionary<char, int> _letterDictionary;
 
-    protected BaseLetterDictionary()
-    {
-        InitializeDictionary();
-    }
+    protected BaseLetterDictionary() => InitializeDictionary();
 
     protected abstract void InitializeDictionary();
 
@@ -17,9 +14,7 @@ internal abstract class BaseLetterDictionary
             _letterDictionary.TryGetValue(key, out int value)
                 ? value
                 : throw new KeyNotFoundException($"Key {key} not found!");
-        set
-        {
-            throw new NotImplementedException();
-        }
+
+        set => throw new NotImplementedException();
     }
 }

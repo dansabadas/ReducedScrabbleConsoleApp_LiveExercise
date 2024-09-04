@@ -130,7 +130,7 @@ public class SessionService : ISessionService
         List<char> invalidChars = [];
         foreach (char c in chars) 
         {
-            if (!LetterSettings.Instance.LetterAvailability.CharacterExists(c))
+            if (!LetterSettings.Instance.LetterAvailability.CharacterSupported(c))
             {
                 if (!invalidChars.Contains(c))
                 {
